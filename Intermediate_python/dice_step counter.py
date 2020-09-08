@@ -1,4 +1,6 @@
-# Numpy is imported, seed is set
+# import numpy, set seed
+import numpy as np
+np.random.seed(123)
 
 # Starting step
 step = 50
