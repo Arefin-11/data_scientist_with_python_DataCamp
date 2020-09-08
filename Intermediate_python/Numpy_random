@@ -1,0 +1,15 @@
+# Import numpy as np
+import numpy as np
+
+# Set the seed to initialize at the same spot every time
+# here 123 is also randomly chosen, but for 123 every time we run the code first output will be same
+np.random.seed(123)
+
+# Generate and print random float
+print(np.random.rand())
+
+# Use randint() to simulate a dice (int)
+print(np.random.randint(1,7))
+
+# Use randint() again to check similar or different output
+print(np.random.randint(1,7))
